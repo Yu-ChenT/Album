@@ -51,9 +51,6 @@ img {
 }
 
 .container img {
-	margin: 10px;
-	width: 300px;
-	height: 300px;
 	object-fit: cover;
 	cursor: pointer;
 	transition: transform 0s;
