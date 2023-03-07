@@ -50,16 +50,6 @@ img {
   height: auto;
 }
 
-/* Set footer styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-  font-size: 16px;
-}
-
 .gallery img {
 	margin: 10px;
 	width: 300px;
@@ -72,5 +62,15 @@ footer {
 .gallery img:hover {
 	transform: scale(1.1);
 	filter: grayscale(100%);
+}
+
+/* Set footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
 }
 
