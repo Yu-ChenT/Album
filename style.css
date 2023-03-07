@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   position: relative;
-  gap: 40px;
+  gap: 20px;
 }
 
 
@@ -47,7 +47,7 @@ header {
   text-align: center;
   box-sizing: border-box;
   width: calc(33.33% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Set image styles */
