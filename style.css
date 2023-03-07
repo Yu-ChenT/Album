@@ -22,10 +22,14 @@ header {
 
 /* Set container styles */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
 }
+
 
 /* Set grid styles */
 .row::after {
@@ -52,7 +56,7 @@ img {
 
 .container img {
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
 	cursor: pointer;
 	transition: transform 0s;
 }
