@@ -40,12 +40,14 @@ header {
 
 .col {
   float: left;
-  width: 100%;
-  margin: 10px 0;
+  margin: 10px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ccc;
   text-align: center;
+  box-sizing: border-box;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
 }
 
 /* Set image styles */
