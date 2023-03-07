@@ -60,11 +60,13 @@ img {
 	width: 100%;
 	object-fit: contain;
 	cursor: pointer;
+	filter: grayscale(100%); /* Set images to grayscale by default */
 	transition: transform 0s;
+
 }
 
 .container img:hover {
-	filter: grayscale(100%);
+  filter: grayscale(0%); /* Change filter to show original color on hover */
 }
 
 /* Set footer styles */
