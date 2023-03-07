@@ -25,7 +25,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 2rem;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   position: relative;
   gap: 20px; /* add 20px of space between rows and columns */
